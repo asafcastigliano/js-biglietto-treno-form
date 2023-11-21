@@ -3,3 +3,25 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: #b91450;
+}
+
+.div-form{
+    height: 50px;
+}
+
+.border-radius{
+    border-radius: 10px;
+}
+
+.bg-gray{
+    background-color: #808080;
+}
+
+table{
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid #808080;
+}
