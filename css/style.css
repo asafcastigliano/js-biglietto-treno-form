@@ -26,3 +26,16 @@ table{
     border: 1px solid #808080;
     text-align: start;
 }
+
+button{
+    color: #b91450;
+    font-weight: bold;
+    margin: 0 5px 0 5px;
+    padding: 3px;
+    background-color: #cccccc;
+    border-radius: 5px;
+}
+
+.genera{
+    border: 2px solid #ea9143;
+}

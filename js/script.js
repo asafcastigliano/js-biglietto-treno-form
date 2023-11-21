@@ -1,5 +1,5 @@
-const button = document.querySelector(".genera");
-button.addEventListener("click", function(){
+const genera = document.querySelector(".genera");
+genera.addEventListener("click", function(){
     let nome = document.getElementById("nome").value;
     let km = document.getElementById("km").value;
     let age = document.getElementById("age").value;
@@ -31,4 +31,21 @@ button.addEventListener("click", function(){
     document.getElementById("costo-titolo").innerHTML = "<b>Costo biglitetto<b>";
 
     document.getElementById("costo").innerHTML = totale = (totale - sconto).toFixed(2) + "€";
+})
+
+const annulla = document.querySelector(".annulla");
+annulla.addEventListener("click", function(){
+    document.getElementById("passeggero").innerHTML = "";
+
+    document.getElementById("carrozza-titolo").innerHTML = "";
+    document.getElementById("carrozza").innerHTML = "";
+
+    document.getElementById("cp-titolo").innerHTML = "";
+    document.getElementById("cp").innerHTML = ""
+
+    document.getElementById("offerta-titolo").innerHTML = "";
+    document.getElementById("offerta").innerHTML = "";
+
+    document.getElementById("costo-titolo").innerHTML = "";
+    document.getElementById("costo").innerHTML = "";
 })
